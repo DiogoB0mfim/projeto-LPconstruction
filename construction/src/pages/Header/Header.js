@@ -1,7 +1,11 @@
+import * as S from "./HeaderStyled"
+
 const Header = () => {
     return (
         <div>
-            <h1>header</h1>
+            <S.Header>
+                <h1>header</h1>
+            </S.Header>
         </div>
     )
 }
