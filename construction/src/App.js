@@ -1,11 +1,13 @@
 import GlobalStyle from "./globalStyle";
-
+import Header from "./pages/Header/Header";
+import HomePage from "./pages/HomePage/HeroSection";
 
 const App = () => {
   return (
     <div>
       <GlobalStyle />
-    Pederão
+      <Header />
+      <HomePage />  
     </div>
   );
 }
