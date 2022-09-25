@@ -1,6 +1,6 @@
 import * as S from "./HeaderStyled";
 import { useState } from "react";
-import logo from "../Assets/LOGO-HEADER.png";
+import logo from "../../Assets/LOGO-HEADER.png";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState("disabled");
