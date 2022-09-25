@@ -1,8 +1,8 @@
 import * as S from "./HsStyled";
 import * as I from "./ImagesStyled";
 import * as T from "./TextsStyled";
-import logo from "../Assets/MULHER-MAIN-SECTION.png"
-import imageMobile from "../Assets/imageMobile.png"
+import logo from "../../Assets/MULHER-MAIN-SECTION.png"
+import imageMobile from "../../Assets/imageMobile.png"
 
 
 const HeroSection = () => {
