@@ -20,10 +20,9 @@ export const Header = styled.div`
   }
 `;
 
-// !MUDAR, TÁ RUIM
+// !CÓODIGO PORCO, MAS TABO
 export const DivTest = styled.div`
-  width: 1000px;
-  margin-left: 50px;
+  width: 850px;
 `;
 
 // *Estilização da logo do header
