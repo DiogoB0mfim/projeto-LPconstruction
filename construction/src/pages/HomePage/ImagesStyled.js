@@ -18,9 +18,9 @@ background-image: url(${props => props.img});
 display: none;
 
 @media (max-width: 768px) {
-    width: 50%;
+    width: 70%;
    display: flex;
    position: absolute;
-   margin-top: -150px;
+   margin-top: 170px;
 }
 `
