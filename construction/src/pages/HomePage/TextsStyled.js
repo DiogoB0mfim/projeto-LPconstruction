@@ -17,11 +17,10 @@ padding-top: 10rem;
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
-    line-height: 0.5rem;
     padding-top: 4rem;
     width: 100vw;
     height: 100vh;
-    z-index: 10;
+    z-index: 1;
 }
 
 h1 {
@@ -54,7 +53,8 @@ p {
     font-size: 1.5rem;
 }
     @media (max-width: 768px) {
-        font-size: 1rem;
+        line-height: 2rem;
+        font-size: 1.5rem;
     }
 }
 `

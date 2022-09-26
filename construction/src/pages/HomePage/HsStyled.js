@@ -9,5 +9,7 @@ background-color: #E65219;
 
 @media (max-width: 768px) {
    height: 80vh;
+   align-items: center;
+   padding-top: 5rem;
 }
 `
