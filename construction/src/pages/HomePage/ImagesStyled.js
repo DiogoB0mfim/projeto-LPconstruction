@@ -16,8 +16,11 @@ width: 100%;
 export const ImageMobile = styled.img`
 background-image: url(${props => props.img});
 display: none;
-border: 1px black solid;
+
 @media (max-width: 768px) {
-   
+    width: 50%;
+   display: flex;
+   position: absolute;
+   margin-top: -150px;
 }
 `
