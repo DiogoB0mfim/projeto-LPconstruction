@@ -6,22 +6,31 @@ height: 100vh;
 width: 50%;
 padding-left: 5rem;
 line-height: 1rem;
-padding-top: 12rem;
+padding-top: 10rem;
+
+@media (max-width: 1366px) {
+    padding-top: 6rem;
+}
 
 
 @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
-    line-height: 2rem;
-    padding-top: 6rem;
+    line-height: 0.5rem;
+    padding-top: 4rem;
     width: 100vw;
     height: 100vh;
+    z-index: 10;
 }
 
 h1 {
     color: white;
     font-size: 12rem;
+
+    @media (max-width: 1366px) {
+    font-size: 8rem;
+}
     @media (max-width: 768px) {
         font-size: 5.5rem;
     }
@@ -29,13 +38,21 @@ h1 {
 h3 {
     color: white;
     font-size: 3rem;
+
+    @media (max-width: 1366px) {
+    font-size: 2rem;
+}
     @media (max-width: 768px) {
-        font-size: 1.5rem;
+        font-size: 2rem;
    }
 }
 p {
     color: white;
     font-size: 2rem;
+
+    @media (max-width: 1366px) {
+    font-size: 1.5rem;
+}
     @media (max-width: 768px) {
         font-size: 1rem;
     }
@@ -51,7 +68,16 @@ border: none;
 color: white;
 font-size: 3rem;
 
+@media (max-width: 1366px) {
+margin-left: 8rem;
+height: 3rem;
+width: 12rem;
+background-color: #4F04E1;
+font-size: 2rem;  
+}
+
 @media (max-width: 768px) {
+margin-top: 15px;
 margin-left: -0.1rem;
 height: 3rem;
 width: 12rem;
