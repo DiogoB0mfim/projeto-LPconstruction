@@ -10,6 +10,14 @@ gap: 3rem;
 justify-content: center;
 margin-top: 3rem;
 margin-bottom: 5rem; // RETIRAR DEPOIS DE FAZER A PRÓXIMA SECTION
+
+@media (max-width: 1366px) {
+   gap: 1rem;
+}
+
+@media (max-width: 766px) {
+    gap: 3rem;
+}
 `
 export const FirstCard = styled.div`
 box-sizing: border-box;
@@ -21,9 +29,27 @@ border-radius: 4px;
 background-image: linear-gradient(#5309F0, #C0AEE3);
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+@media (max-width: 1366px) {
+    height: 22rem;
+    width: 15rem;
+}
+
+@media (max-width: 766px) {
+    height: 22rem;
+    width: 20rem;
+}
+
 H3 {
     color: white;
     font-size: 3.2rem;
+
+    @media (max-width: 1366px) {
+        font-size: 2.5rem;
+}
+
+@media (max-width: 766px) {
+        font-size: 3rem;
+}
 }
 `
 export const CardServices = styled.div`
@@ -36,6 +62,16 @@ width: 20rem;
 border-radius: 4px;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
 
+@media (max-width: 1366px) {
+    height: 22rem;
+    width: 15rem;
+}
+
+@media (max-width: 766px) {
+    height: 22rem;
+    width: 20rem;
+}
+
 h3 {
     font-size: 2rem;
 }
@@ -44,6 +80,22 @@ img {
     height: 20%;
     margin-top: -3rem;
     margin-left: -13rem;
+
+    @media (max-width: 1366px) {
+        margin-left: -10rem;
+        height: 16%;
+}
+
+@media (max-width: 766px) {
+    height: 20%;
+    margin-left: -13rem;
+}
+}
+
+p {
+    @media (max-width: 1366px) {
+        font-size: 1.2rem;
+}
 }
 `
 export const LastCard = styled.div`
@@ -56,9 +108,27 @@ border-radius: 4px;
 background-image: linear-gradient(#EA5F3E , #FF957C);
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+@media (max-width: 1366px) {
+    height: 22rem;
+    width: 15rem;
+}
+
+@media (max-width: 766px) {
+    height: 22rem;
+    width: 20rem;
+}
+
 H3 {
     color: white;
     font-size: 3.2rem;
+
+    @media (max-width: 1366px) {
+        font-size: 2.3rem;
+}
+
+@media (max-width: 766px) {
+        font-size: 3rem;
+}
 }
 `
 
