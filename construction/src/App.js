@@ -2,6 +2,7 @@ import GlobalStyle from "./globalStyle";
 import Header from "./pages/Header/Header";
 import HomePage from "./pages/HomePage/HeroSection";
 import About from "./pages/About/About"
+import Crafts from "./pages/Crafts/Crafts";
 
 const App = () => {
   return (
@@ -9,7 +10,8 @@ const App = () => {
       <GlobalStyle />
       <Header />
       <HomePage />
-      <About />  
+      <About /> 
+      <Crafts /> 
     </div>
   );
 }
