@@ -22,7 +22,8 @@ export const Header = styled.div`
 
 // !CÓODIGO PORCO, MAS TABO
 export const DivTest = styled.div`
-  width: 850px;
+  width: 1050px;
+  margin-left: 60px;
 `;
 
 // *Estilização da logo do header
