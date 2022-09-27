@@ -25,6 +25,7 @@ export const AboutText = styled.div`
 
   @media (max-width: 1366px) {
     font-size: 1.2rem;
+    width: 90%;
   }
 `;
 
