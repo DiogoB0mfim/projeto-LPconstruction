@@ -3,6 +3,7 @@ import Header from "./pages/Header/Header";
 import HomePage from "./pages/HomePage/HeroSection";
 import About from "./pages/About/About"
 import Crafts from "./pages/Crafts/Crafts";
+import Comments from "./pages/Comments/Comments";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <Header />
       <HomePage />
       <About /> 
-      <Crafts /> 
+      <Crafts />
+      <Comments /> 
     </div>
   );
 }
