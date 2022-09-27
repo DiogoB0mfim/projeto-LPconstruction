@@ -1,5 +1,5 @@
 import * as C from "./CraftsStyled"
-import pincel from "../../Assets/pincel.svg"
+import pincel from "../../Assets/pincel-do-max.png"
 
 const Crafts = () => {
     return (

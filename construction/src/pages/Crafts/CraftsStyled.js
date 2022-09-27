@@ -78,8 +78,9 @@ h3 {
 
 img {
     height: 20%;
+    width: 20%;
     margin-top: -3rem;
-    margin-left: -13rem;
+  border-radius: 50%;
 
     @media (max-width: 1366px) {
         margin-left: -10rem;
