@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import * as V from "./AdvantagesStyled"
-// import path from "../../Assets/path.png"
+import path from "../../Assets/path.png"
 
 export const Advantages = () => {
 
@@ -35,8 +35,8 @@ export const Advantages = () => {
             </V.ContainerOptions>
             <V.ContainerExplanation>
                 <V.ContainerText ><p>{showDescription}</p></V.ContainerText>
+                <img src={path} alt="enfeite em forma de mola"/> 
             </V.ContainerExplanation>
-            {/* <img src={path} alt="enfeite em forma de mola"/> */}
         </V.Container >
 
     )

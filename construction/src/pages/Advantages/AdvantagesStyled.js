@@ -13,13 +13,16 @@ display: flex;
 
 img {
     position: absolute;
-    margin-left: 91.5rem;
-    margin-top: 10rem;
-    z-index: -10;
+    margin-left: 20rem;
+    margin-top: 4.5rem;
 
     @media (max-width: 1366px) {
-        margin-left: 57rem;
-        margin-top: -3rem; 
+        margin-left: 12rem;
+        margin-top: -7.8rem; 
+    }
+    @media (max-width: 766px) {
+        margin-left: 6rem;
+        margin-top: -23.8rem; 
     }
 }
 `
@@ -59,16 +62,16 @@ color: #ffffff;
 font-size: 3rem;
 margin: 1rem;
 
+
 @media (max-width: 1366px) {
         width: 28rem;
         height: 4rem;
         font-size: 2rem;
     }
     @media (max-width: 1100px) {
-        width: 20rem;
+        width: 21rem;
 }
   
-
 
 :hover{
     background-color: #ffffff;
@@ -81,7 +84,7 @@ export const ContainerExplanation = styled.div`
 box-sizing: border-box;
 display: flex;
 height: 52rem;
-width: 50%;
+width: 60%;
 padding: 5rem;
 justify-content: center;
 
@@ -109,6 +112,8 @@ color: #E65219;
 font-size: 5.5rem;
 font-weight: bold;
 padding: 5rem;
+z-index: 5;
+background-color: #ffffff;
 
 @media (max-width: 1366px) {
         font-size: 3rem;
