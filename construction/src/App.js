@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage/HeroSection";
 import About from "./pages/About/About"
 import Crafts from "./pages/Crafts/Crafts";
 import Comments from "./pages/Comments/Comments";
+import Footer from "./pages/Footer/Footer"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <About /> 
       <Crafts />
       <Comments /> 
+      <Footer />
     </div>
   );
 }
