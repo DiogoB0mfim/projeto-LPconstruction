@@ -6,15 +6,15 @@ const Crafts = () => {
         <C.Container>
             <C.FirstCard><h3>COMO PODEMOS TE AJUDAR</h3></C.FirstCard>
             <C.CardServices>
-                <img src={pincel} alt="ícone de pincel"/>
+                {/* <img src={pincel} alt="ícone de pincel"/> */}
                 <h3>Título</h3>
                 <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
             </C.CardServices><C.CardServices>
-            <img src={pincel} alt="ícone de pincel"/>
+            {/* <img src={pincel} alt="ícone de pincel"/> */}
                 <h3>Título</h3>
                 <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
             </C.CardServices><C.CardServices>
-            <img src={pincel} alt="ícone de pincel"/>
+            {/* <img src={pincel} alt="ícone de pincel"/> */}
                 <h3>Título</h3>
                 <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
             </C.CardServices>          
