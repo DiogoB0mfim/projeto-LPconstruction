@@ -52,6 +52,9 @@ H3 {
 }
 }
 `
+export const CardServicesGlobal = styled.div`
+
+`
 export const CardServices = styled.div`
 box-sizing: border-box;
 display: flex;
@@ -77,19 +80,19 @@ h3 {
 }
 
 img {
-    height: 20%;
-    width: 20%;
+    height: 4rem;
+    width: 4rem;
     margin-top: -3rem;
     border-radius: 50%;
 
     @media (max-width: 1366px) {
-        margin-left: -10rem;
-        height: 16%;
+        height: 3rem;
+        width: 3rem;
 }
 
 @media (max-width: 766px) {
-    height: 20%;
-    margin-left: -13rem;
+    height: 4rem;
+    width: 4rem;
 }
 }
 
