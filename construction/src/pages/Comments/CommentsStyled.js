@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// *Estilização DIV comentários
 export const CommentsDiv = styled.div`
   display: flex;
   width: 100%;
@@ -7,10 +8,11 @@ export const CommentsDiv = styled.div`
   align-items: center;
 `;
 
+// *Estilização Container comentários
 export const CommentsContainer = styled.div`
   display: flex;
   justify-content: space-around;
-  border-radius: 15px;
+  border-radius: 4px;
   gap: 1rem;
   width: 85%;
   padding: 40px;
@@ -31,9 +33,10 @@ export const CommentsContainer = styled.div`
   }
 `;
 
+// *Estilização Card comentários
 export const CommentsCard = styled.div`
   background-color: #ffff;
-  border-radius: 15px;
+  border-radius: 6px;
   padding: 15px;
   width: 30%;
   height: 100%;
