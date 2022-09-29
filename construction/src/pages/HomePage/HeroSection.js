@@ -9,7 +9,7 @@ const HeroSection = () => {
     return (
             <S.Container>
                 <T.ContainerTexts>
-                <h1>GECOM</h1>
+                <h1>PEDERO'S</h1>
                 <h3>Tudo em gesso</h3>
                 <p>Material, Ferramentas e Equipamentos</p>
                 </T.ContainerTexts>
