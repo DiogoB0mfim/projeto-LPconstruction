@@ -31,8 +31,6 @@ export const CommentsContainer = styled.div`
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-
- 
 `;
 
 // *Estilização Card comentários
@@ -71,5 +69,3 @@ export const CommentsTitle = styled.h2`
     font-size: 2.5rem;
   }
 `;
-
-
