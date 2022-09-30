@@ -8,7 +8,7 @@ import marca from "../../Assets/marca-pederos.png";
 
 const Footer = () => {
   return (
-    <S.ContainerFooter>
+    <S.ContainerFooter id="Contatos">
       <S.Container1St>
         <S.ContainerInfos>
           <div>

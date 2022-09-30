@@ -3,7 +3,7 @@ import * as S from "./AboutStyled";
 
 const About = () => {
   return (
-    <div>
+    <div id="About">
       <S.About>
         <S.AboutImg src={imgAbout} alt="homem lixando parede" />
         <S.AboutText>

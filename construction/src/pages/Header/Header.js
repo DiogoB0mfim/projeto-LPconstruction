@@ -12,7 +12,7 @@ const Header = () => {
       setToggleMenu("disabled");
     }
   };
-  
+
   return (
     <S.Header id="header">
       <S.DivTest>
@@ -31,22 +31,30 @@ const Header = () => {
         </S.BtnMobile>
         <S.MenuUl id="menu" role="menu">
           <li>
-            <S.MenuA href="" onClick={() => setToggleMenu("disabled")}>
+            <S.MenuA href="#About" onClick={() => setToggleMenu("disabled")}>
               SOBRE
             </S.MenuA>
           </li>
           <li>
-            <S.MenuA href="" onClick={() => setToggleMenu("disabled")}>
+            <S.MenuA href="#Crafts" onClick={() => setToggleMenu("disabled")}>
               SERVIÇOS
             </S.MenuA>
           </li>
           <li>
-            <S.MenuA href="" onClick={() => setToggleMenu("disabled")}>
+            <S.MenuA href="#Comments" onClick={() => setToggleMenu("disabled")}>
+              COMENTÁRIOS
+            </S.MenuA>
+          </li>
+          <li>
+            <S.MenuA
+              href="#Advantages"
+              onClick={() => setToggleMenu("disabled")}
+            >
               VANTAGENS
             </S.MenuA>
           </li>
           <li>
-            <S.MenuA href="" onClick={() => setToggleMenu("disabled")}>
+            <S.MenuA href="#Contatos" onClick={() => setToggleMenu("disabled")}>
               CONTATOS
             </S.MenuA>
           </li>
