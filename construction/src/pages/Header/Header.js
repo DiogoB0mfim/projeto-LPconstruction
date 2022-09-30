@@ -13,10 +13,20 @@ const Header = () => {
     }
   };
 
+  //window.scrollTo(0, 750)
+  const scrollTop = (param) => {
+    window.scrollTo(0, param);
+    setToggleMenu("disabled");
+  };
+
   return (
     <S.Header id="header">
       <S.DivTest>
-        <S.ImgHeader src={logo} alt="logo-empresa" />
+        <S.ImgHeader
+          src={logo}
+          alt="logo-empresa"
+          onClick={() => scrollTop(0)}
+        />
       </S.DivTest>
       <S.Nav id="nav" className={toggleMenu}>
         <S.BtnMobile

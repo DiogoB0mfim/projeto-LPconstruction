@@ -24,10 +24,12 @@ export const Header = styled.div`
 export const DivTest = styled.div`
   width: 1050px;
   margin-left: 60px;
+  padding-top: 20px;
 `;
 
 // *Estilização da logo do header
 export const ImgHeader = styled.img`
+  cursor: pointer;
   @media (max-width: 768px) {
     margin-left: -76px;
   }
