@@ -25,13 +25,13 @@ padding-top: 10rem;
 
 h1 {
     color: white;
-    font-size: 12rem;
+    font-size: 11rem;
 
     @media (max-width: 1366px) {
-    font-size: 8rem;
+    font-size: 7.5rem;
 }
     @media (max-width: 768px) {
-        font-size: 5.5rem;
+        font-size: 4.5rem;
     }
 }
 h3 {

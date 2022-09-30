@@ -30,8 +30,13 @@ export const AboutText = styled.div`
 `;
 
 // *Estilização do titulo
-export const AboutTitle = styled.h1`
+export const AboutTitle = styled.h2`
+  font-size: 3rem;
   color: #4f04e1;
+
+  @media (max-width: 766px) {
+    font-size: 2.5rem;
+  }
 `;
 
 // *Estilização da imagem
