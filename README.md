@@ -2,7 +2,8 @@
   <a href="https://imgur.com/gDvPUQb"><img src="https://i.imgur.com/gDvPUQb.png" title="source: imgur.com" /></a>
 </div>
 <h2 align="center">Sobre</h2>
-<p align="justify"></p>
+<p align="justify">
+Projeto feito em React comm o intuíto de aprimorar as habilidades de design e responsividade. Essa foi a primeira vez utilizando o Figma para fazer o design do projeto antes de começar a codar de fato. Mesmo tendo que mudar algumas coisas na hora da execução por acharmos que ficaria melhor no site, foi muito bom já ter o design pra se basear e seguir. Foi um desafio também imaginar como seria o layout do site e quais cores iríamos usar para que ficasse harmônico e fluído, mas uma vez definido coisas como: cores, tipografia, seções e ordem das elemetos, ficou mais fácil seguir elaborando a página.</p>
 
 <h3><a href="https://projeto-predero.vercel.app/" target="blank">🔗 Deploy (Vercel)</a></h3>
 <h3><a href="https://www.figma.com/file/w1mAemCnpwHtmUe8MXVmCd/PROJETO-PEDERO?node-id=0%3A1">🖼 Design</a></h3>
