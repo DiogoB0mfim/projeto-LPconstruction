@@ -1,8 +1,9 @@
-import { createGlobalStyle } from 'styled-components';
- 
+import { createGlobalStyle } from "styled-components";
+
 const GlobalStyle = createGlobalStyle`
   * {
     scrollbar-width: none;
+    scroll-behavior: smooth;
 
     &::-webkit-scrollbar {
       display: none;
@@ -17,5 +18,5 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
   }
 `;
- 
+
 export default GlobalStyle;
