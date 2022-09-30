@@ -26,7 +26,7 @@ export const CommentsContainer = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 85%;
     padding: 0rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -41,11 +41,10 @@ export const CommentsCard = styled.div`
   border-radius: 6px;
   padding: 15px;
   width: 29%;
-  height: 100%;
   line-height: 1.8rem;
 
   @media (max-width: 768px) {
-    width: 85%;
+    width: 83%;
   }
 `;
 

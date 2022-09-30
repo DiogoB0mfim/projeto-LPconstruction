@@ -27,6 +27,7 @@ img {
         width: 50%;
         margin-left: 9.7rem;
         margin-top: 0.2rem; 
+        display: none;
     }
 }
 `
@@ -52,6 +53,7 @@ export const Title = styled.h2`
         font-size: 3rem;
     }
     @media (max-width: 1100px) {
+        margin-top: 0;
         height: 2.5;
         font-size: 2.5rem;
     }
