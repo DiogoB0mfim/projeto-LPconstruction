@@ -21,8 +21,11 @@ Projeto feito em React com o intuito de aprimorar as habilidades de design e res
 <p>• 🖥 Desktop ✔</p>
 <p>• 💻 Outros dispositivos ✔</p>
 
-<h2>📱 Responsividade Mobile<h2>
-<img width="300" src="pokedex/src/assets/mobile.gif">
-
-<h2>💻 Outros dispositivos<h2>
-<img width="300" src="pokedex/src/assets/desktop.gif">
+<h2>📱 Responsividade <h2>
+<a href="https://imgur.com/dWuqu3d"><img src="https://i.imgur.com/dWuqu3d.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/tlYtume"><img src="https://i.imgur.com/tlYtume.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/H58p1da"><img src="https://i.imgur.com/H58p1da.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/YgxxZO0"><img src="https://i.imgur.com/YgxxZO0.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/r0FvnMH"><img src="https://i.imgur.com/r0FvnMH.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/KIc5Rnr"><img src="https://i.imgur.com/KIc5Rnr.png" title="source: imgur.com" /></a>
+  
