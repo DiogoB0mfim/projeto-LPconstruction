@@ -3,7 +3,7 @@
 </div>
 <h2 align="center">Sobre</h2>
 <p align="justify">
-Projeto feito em React com o intuito de aprimorar as habilidades de design e responsividade. Essa foi a primeira vez utilizando o Figma para fazer o design do projeto antes de começar a codar de fato. Mesmo tendo que mudar algumas coisas na hora da execução por acharmos que ficaria melhor no site, foi muito bom já ter o design pra se basear e seguir. Foi um desafio também imaginar como seria o layout do site e quais cores iríamos usar para que ficasse harmônico e fluído, mas uma vez definido coisas como: cores, tipografia, seções e ordem das elemetos, ficou mais fácil seguir elaborando a página. </br>
+Projeto feito em React com o intuito de aprimorar as habilidades de design e responsividade. Essa foi a primeira vez utilizando o Figma para fazer o design do projeto antes de começar a codar de fato. Mesmo tendo que mudar algumas coisas na hora da execução por acharmos que ficaria melhor no site, foi muito bom já ter o design pra se basear e seguir. Foi um desafio também imaginar como seria o layout do site e quais cores iríamos usar para que ficasse harmônico e fluído, mas uma vez definido coisas como: cores, tipografia, seções e ordem das elemetos, ficou mais fácil seguir elaborando a página.
 Um dos pontos mais importantes desse projeto foi, sem dúvidas, praticar o pair programming, onde dividimos as tarefas e conversávamos sobre as alterações que seriam feitas.
 </p>
 
@@ -23,8 +23,12 @@ Um dos pontos mais importantes desse projeto foi, sem dúvidas, praticar o pair 
 <p>• 🖥 Desktop ✔</p>
 <p>• 💻 Outros dispositivos ✔</p>
 
-<h2>📱 Responsividade Mobile<h2>
-<img width="300" src="pokedex/src/assets/mobile.gif">
+<h2>📱 Responsividade <h2>
+<a href="https://imgur.com/5WTcRQH"><img src="https://i.imgur.com/5WTcRQH.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/NHU4rcz"><img src="https://i.imgur.com/NHU4rcz.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/YOXxBeU"><img src="https://i.imgur.com/YOXxBeU.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/u7xyf7O"><img src="https://i.imgur.com/u7xyf7O.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/JO8F4bA"><img src="https://i.imgur.com/JO8F4bA.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/2sVu9RT"><img src="https://i.imgur.com/2sVu9RT.png" title="source: imgur.com" /></a>
 
-<h2>💻 Outros dispositivos<h2>
-<img width="300" src="pokedex/src/assets/desktop.gif">
+
