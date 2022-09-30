@@ -26,7 +26,7 @@ img {
         height: 50%;
         width: 50%;
         margin-left: 9.7rem;
-        margin-top: 0.2rem; 
+        margin-top: 0.8rem; 
         display: none;
     }
 }
@@ -69,6 +69,7 @@ border-radius: 4px;
 color: #ffffff;
 font-size: 3rem;
 margin: 1rem;
+transition: 1s;
 
 
 @media (max-width: 1366px) {
