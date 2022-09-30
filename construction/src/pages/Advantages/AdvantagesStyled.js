@@ -21,11 +21,19 @@ export const Container = styled.div`
       margin-top: -4.8rem;
     }
     @media (max-width: 766px) {
+
+        height: 50%;
+        width: 50%;
+        margin-left: 9.7rem;
+        margin-top: 0.8rem; 
+        display: none;
+
       height: 50%;
       width: 50%;
       margin-left: 9.7rem;
       margin-top: 0.2rem;
       display: none;
+
     }
   }
 `;
@@ -57,6 +65,30 @@ export const Title = styled.h2`
   }
 `;
 export const Buttons = styled.button`
+
+width: 38rem;
+height: 6rem;
+background-color: #4F04E1;
+border: none;
+border-radius: 4px;
+color: #ffffff;
+font-size: 3rem;
+margin: 1rem;
+transition: 1s;
+
+
+@media (max-width: 1366px) {
+        width: 28rem;
+        height: 4rem;
+        font-size: 2rem;
+    }
+    @media (max-width: 1100px) {
+        width: 21rem;
+}
+  
+
+:hover{
+
   width: 38rem;
   height: 6rem;
   background-color: #4f04e1;
@@ -76,6 +108,7 @@ export const Buttons = styled.button`
   }
 
   :hover {
+
     background-color: #ffffff;
     border: 2px solid #4f04e1;
     color: #4f04e1;
